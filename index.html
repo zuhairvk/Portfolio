@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Mohammed Zuhair VK</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Mohammed Zuhair VK</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile.jpeg" alt="Mohammed Zuhair VK profile picture" class="profile-Pic" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+
+      <h1 class="title">Mohammed Zuhair VK</h1>
+      <p class="section__text__p2">Digital Marketer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Muhammed zuhair vk CV DIGITAL MARKETING.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https:linkedin.com/in/zuhair-vk48a294221'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="text-container">
+          <p>
+            I am Zuhair VK, a skilled professional with a diverse background in digital marketing and sales.During my
+            tenure as a
+            digital marketing trainee, I gained hands-on experience in various aspects of the field. From managing
+            marketing
+            campaigns to implementing social media strategies, search engine optimization, and content creation, I honed
+            my skills
+            in driving brand awareness, increasing customer engagement, and generating leads.Prior to my digital
+            marketing journey,
+            I worked as a Service Providers Associate for over 6 months. This role strengthened my interpersonal and
+            communication
+            skills, allowing me to engage effectively with customers, understand their needs, and close sales. I learned
+            the
+            importance of building relationships and delivering exceptional customer service, which has proved
+            invaluable in my
+            professional journey.<br />
+            <br />
+
+            I am confident that my dedication, adaptability, and passion for excellence make me a valuable asset.I bring
+            a unique
+            blend of expertise to the table. Let's collaborate to bring your vision to life and achieve outstanding
+            online presence.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience">
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Digital Marketing Trainee</h2>
+            <p class="experience-count">CRANBERRY TECH
+              Kochi, Kerala. <br /> Apr 2022 - Sep 2022</p>
+            <br />
+            <br />
+            <div class="experience-container">
+              <img src="./assets/icons8-sphere-24.png" alt="Experience icon" class="bullet" />
+              <p>
+                Create and execute social media campaigns to
+                build brand awareness, engage with customers,
+                and drive website traffic.<br />
+              </p>
+            </div>
+            <br />
+            <div class="experience-container">
+              <img src="./assets/icons8-sphere-24.png" alt="Experience icon" class="bullet" />
+              <p>
+                Assisting with email campaign creation, including writing compelling copy, designing templates,
+                segmenting email lists,
+                and analyzing campaign performance.
+              </p>
+            </div>
+            <br />
+            <div class="experience-container">
+              <img src="./assets/icons8-sphere-24.png" alt="Experience icon" class="bullet" />
+              <p>
+                Learning about keyword research, on-page optimization, link building, and monitoring website rankings
+                using tools like
+                Google Analytics.
+              </p>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Service Providers Associate</h2> <span
+              style="font-size: large; font-weight: 800;">Client
+              Acquisition</span>
+            <p class="experience-count">Professional Pal - Authorized Partner Of IndiaMART,
+              Bengaluru, Karnataka.</p>
+            <br />
+            <div class="experience-container">
+              <img src="./assets/icons8-sphere-24.png" alt="Experience icon" class="bullet" />
+              <p>
+                Developing and implementing
+                sales strategies.<br />
+              </p>
+            </div>
+            <br />
+            <div class="experience-container">
+              <img src="./assets/icons8-sphere-24.png" alt="Experience icon" class="bullet" />
+              <p>
+                Researching and identifying potential clients who may benefit from company's services
+              </p>
+            </div>
+            <br />
+            <div class="experience-container">
+              <img src="./assets/icons8-sphere-24.png" alt="Experience icon" class="bullet" />
+              <p>
+                Conducting meetings or calls with potential clients to understand their requirements, educating them
+                about company's
+                services, and highlighting the value and benefits.
+              </p>
+            </div>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Qualifications'" />
+  </section>
+  <section id="Qualifications">
+
+
+    <p class="section__text__p1">Professional Qualifications</p>
+    <h1 class="title">Education</h1>
+    <div class="experience">
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./assets/experience.png" alt="Education icon" class="icon" />
+          <h3 style="margin-bottom: 1rem;">Digital Marketing</h3>
+          <p>
+            C B TECH<br />
+            Winstud Academy <br />
+            Ministry of corporate Affairs<br />
+            Govt Of India.
+          </p>
+        </div>
+        <div class="details-container">
+          <img src="./assets/experience.png" alt="Education icon" class="icon" />
+          <h3 style="margin-bottom: 1rem;">Diploma in Logistics Management</h3>
+          <p>Next Step Logistics Management Pvt Ltd.
+            Logistics skill council
+            Bengaluru, Karnataka.
+
+          </p>
+        </div>
+        <div class="details-container">
+          <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+          <h3 style="margin-bottom: 1rem;">Bachelor of Business Administration Specialization In Marketing</h3>
+          <p>East West College Of Managment
+            <br />Bangalore University.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </div>
+  </section>
+
+
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container Project-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Travel Bugbites</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://travelbuggsbite.wordpress.com/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container Project-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Travel Bugbites</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://travelbuggsbite.wordpress.com/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:zuhairvk553@gmail.com">zuhairvk553@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Mohammed Zuhair VK. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
