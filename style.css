@@ -440,8 +440,10 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  object-fit: fill;
+  width:90%;
+  min-height: 380px;
+  max-height:380px;
 }
 
 .project-title {
